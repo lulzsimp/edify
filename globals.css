@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* prettier-ignore */
+@layer base {
+  * {font-family: "Readex Pro", sans-serif; @apply transition-all duration-150}
+  h1 {@apply text-3xl text-zinc-900 dark:text-zinc-200 font-bold}
+  p {@apply text-xl text-zinc-900 dark:text-zinc-200}
+  input {@apply p-2 bg-zinc-200 dark:bg-zinc-700 font-bold placeholder:text-zinc-900/75 dark:placeholder:text-zinc-200/75 outline-none focus:ring-4 focus:ring-zinc-700/75 dark:focus:ring-zinc-200/75 rounded-sm text-zinc-700 dark:text-zinc-200 text-lg w-full}
+  button {@apply w-max p-2 px-3.5 bg-zinc-200 dark:bg-zinc-700 font-bold placeholder:text-zinc-900/75 dark:placeholder:text-zinc-200/75 outline-none focus:ring-4 focus:ring-zinc-700/75 dark:focus:ring-zinc-200/75 rounded-md text-zinc-700 dark:text-zinc-200 hover:bg-zinc-300 dark:hover:bg-zinc-600 text-xl}
+  label {@apply text-base text-zinc-900 dark:text-zinc-200 }
+}

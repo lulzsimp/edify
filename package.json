@@ -1,0 +1,29 @@
+{
+  "name": "edify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "3.10.0",
+    "bad-words": "^3.0.4",
+    "cors": "^2.8.5",
+    "joi": "^17.6.0",
+    "joi-phone-number": "^5.1.1",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.8",
+    "prisma": "^3.10.0",
+    "tailwindcss": "^3.0.23"
+  }
+}
